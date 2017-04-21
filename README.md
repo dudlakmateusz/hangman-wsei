@@ -1,4 +1,4 @@
-
+# HANGAM WSEI
 
 ## Cel aplikacji:
 
@@ -22,6 +22,10 @@ Mateusz Dudłak
     Email: mateusz.dudlak@gmail.com
     
     Facebook: https://facebook.com/dudlakmateusz
+
+## info
+zapraszamy na stronę [wiki][Wiki]
+
 
 
 A PhoneGap HANGMAN template
@@ -80,7 +84,7 @@ For more information on the Content Security Policy, see the [section on CSP in 
 
 Another good resource for generating a good CSP declaration is [CSP is Awesome][csp-is-awesome]
 
-
+[wiki]: https://github.com/dudlakmateusz/hangman-wsei/wiki
 [phonegap-cli-url]: http://github.com/phonegap/phonegap-cli
 [cordova-app]: http://github.com/apache/cordova-app-hello-world
 [bithound-img]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world/badges/score.svg

@@ -29,7 +29,7 @@ copyright: WSEI 2017
 [hm-img]
 
 
-# HANGMAN PhoneGap Template [![bitHound Score][bithound-img]]
+# HANGMAN PhoneGap Template ![bitHound Score][bithound-img]
 
 
 

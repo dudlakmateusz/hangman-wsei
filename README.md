@@ -6,7 +6,7 @@ Gra powstała z myślą o fanach serialu telewizyjnego "Gra o Tron" oraz wszystk
 
 ## Opis:
 
-Gra jest odmianą popularnej gry Wisielec. W tym wydaniu oferujemy graczowi możliwość uratowania bohatera serialu „Gra o tron”. Zadaniem gracza jest odgadnięcie hasła i uratowanie bohatera serialu „Gra o Tron”. 
+Gra jest odmianą popularnej gry Wisielec. W tym wydaniu oferujemy graczowi możliwość uratowania bohatera serialu „Gra o tron”. Zadaniem gracza jest odgadnięcie hasła dzięki czemu bohater serialu nie staci życia. 
 
 
 ## Twórcy:

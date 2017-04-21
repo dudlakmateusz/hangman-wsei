@@ -23,9 +23,9 @@ Mateusz Dudłak
 
 ## info
 zapraszamy na stronę [wiki][Wiki] 
-!(https://github.com/dudlakmateusz/hangman-wsei/blob/master/www/res/screen/windows/SplashScreen.scale-100.png)
 
-[![a][hm-img]][wsei]
+
+[![][hm-img]][wsei]
 
 ### copyright: WSEI 2017
 

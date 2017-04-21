@@ -2,7 +2,7 @@
 
 ## Cel aplikacji:
 
-Gra powstała z myślą o fanach serialu telewizyjnego "Gra o Tron", oraz wszystkich osób lubiących tego typu gry. Gra pełni także funkcję edukacyjną ponieważ ciekawe i oryginalne hasła, które gracz musi odgadnąć, pozwalają poszerzyć zasób słownictwa.
+Gra powstała z myślą o fanach serialu telewizyjnego "Gra o Tron" oraz wszystkich osób lubiących tego typu gry. Gra pełni także funkcję edukacyjną ponieważ ciekawe i oryginalne hasła, które gracz musi odgadnąć, pozwalają poszerzyć zasób słownictwa.
 
 ## Opis:
 

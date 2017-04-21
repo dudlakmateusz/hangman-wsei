@@ -32,7 +32,7 @@ copyright: WSEI 2017
 
 
 [wiki]: https://github.com/dudlakmateusz/hangman-wsei/wiki
-[hm-img]: https://github.com/dudlakmateusz/hangman-wsei/blob/master/www/res/icon/windows/Wide310x150Logo.scale-240.png
+[hm-img]: https://github.com/dudlakmateusz/hangman-wsei/blob/master/www/res/icon/windows/Square71x71Logo.scale-240.png
 [wsei]: [http://www.wsei.edu.pl/]
 
 

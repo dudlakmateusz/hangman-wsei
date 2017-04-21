@@ -29,8 +29,19 @@ copyright: WSEI 2017
 [hm-img]
 
 
+# HANGMAN PhoneGap Template [![bitHound Score][bithound-img]][bithound-url]
+
+
+
+
+[phonegap-cli-url]: http://github.com/phonegap/phonegap-cli
+[cordova-app]: http://github.com/apache/cordova-app-hello-world
+[bithound-img]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world/badges/score.svg
+[bithound-url]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world
+
+
 
 [wiki]: https://github.com/dudlakmateusz/hangman-wsei/wiki
 [hm-img]: https://github.com/dudlakmateusz/hangman-wsei/blob/master/www/res/icon/windows/Wide310x150Logo.scale-240.png
-[bithound-img]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world/badges/score.svg
+
 

@@ -1,5 +1,16 @@
 # HANGMAN PhoneGap Template [![bitHound Score][bithound-img]][bithound-url]
 
+
+Twórcy:
+Bartosz Pieczara (team menager)
+Email: 
+Facebook: https://facebook.com/bartek.pieczara.7
+
+Mateusz Dudłak
+Email: mateusz.dudlak@gmail.com
+Facebook: https://facebook.com/dudlakmateusz
+
+
 A PhoneGap HANGMAN template
 
 ## Usage

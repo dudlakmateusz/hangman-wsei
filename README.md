@@ -1,7 +1,15 @@
-# HANGMAN PhoneGap Template [![bitHound Score][bithound-img]][bithound-url]
 
 
-Twórcy:
+# Cel aplikacji:
+
+Gra powstała z myślą o fanach serialu telewizyjnego "Gra o Tron", oraz wszystkich osób lubiących tego typu gry. Ciekawe i oryginalne hasła gwarantują dobrą zabawę.
+
+## Opis:
+
+Gra jest odmianą popularnej gry Wisielec. W tym wydaniu oferujemy graczowi możliwość uratowania bohatera serialu „Gra o tron”. Gra pełni także funkcję edukacyjną ponieważ ciekawe i oryginalne hasła, które gracz musi odgadnąć, pozwalają poszerzyć zasób słownictwa.
+
+
+### Twórcy:
 
 Bartosz Pieczara (team menager)
 

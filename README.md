@@ -2,11 +2,11 @@
 
 ## Cel aplikacji:
 
-Gra powstała z myślą o fanach serialu telewizyjnego "Gra o Tron", oraz wszystkich osób lubiących tego typu gry. Ciekawe i oryginalne hasła gwarantują dobrą zabawę.
+Gra powstała z myślą o fanach serialu telewizyjnego "Gra o Tron", oraz wszystkich osób lubiących tego typu gry. Gra pełni także funkcję edukacyjną ponieważ ciekawe i oryginalne hasła, które gracz musi odgadnąć, pozwalają poszerzyć zasób słownictwa.
 
 ## Opis:
 
-Gra jest odmianą popularnej gry Wisielec. W tym wydaniu oferujemy graczowi możliwość uratowania bohatera serialu „Gra o tron”. Gra pełni także funkcję edukacyjną ponieważ ciekawe i oryginalne hasła, które gracz musi odgadnąć, pozwalają poszerzyć zasób słownictwa.
+Gra jest odmianą popularnej gry Wisielec. W tym wydaniu oferujemy graczowi możliwość uratowania bohatera serialu „Gra o tron”. Zadaniem gracza jest odgadnięcie hasła i uratowanie bohatera serialu „Gra o Tron”. 
 
 
 ## Twórcy:

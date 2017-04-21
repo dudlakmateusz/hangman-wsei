@@ -5,15 +5,15 @@ Twórcy:
 
 Bartosz Pieczara (team menager)
 
-Email: 
-
-Facebook: https://facebook.com/bartek.pieczara.7
+    Email: 
+    
+    Facebook: https://facebook.com/bartek.pieczara.7
 
 Mateusz Dudłak
 
-Email: mateusz.dudlak@gmail.com
-
-Facebook: https://facebook.com/dudlakmateusz
+    Email: mateusz.dudlak@gmail.com
+    
+    Facebook: https://facebook.com/dudlakmateusz
 
 
 A PhoneGap HANGMAN template

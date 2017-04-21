@@ -23,7 +23,7 @@ Mateusz Dudłak
 
 ## info
 zapraszamy na stronę [wiki][Wiki] 
-!(hm-img)
+
 
 [![a][hm-img]][wsei]
 

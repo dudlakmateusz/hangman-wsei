@@ -28,7 +28,8 @@ zapraszamy na stronę [wiki][Wiki]
 
 
 
-A PhoneGap HANGMAN template
+
+
 
 ## Usage
 

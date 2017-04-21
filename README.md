@@ -1,6 +1,6 @@
 # HANGMAN PhoneGap Template [![bitHound Score][bithound-img]][bithound-url]
 
-HANGMAN-WSEI
+A PhoneGap HANGMAN template
 
 ## Usage
 

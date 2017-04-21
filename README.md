@@ -26,7 +26,7 @@ Mateusz Dudłak
 ## info
 zapraszamy na stronę [wiki][Wiki] 
 
-###: copyright: WSEI 2017
+### copyright: WSEI 2017
 
 
 

@@ -26,16 +26,7 @@ zapraszamy na stronę [wiki][Wiki]
 
 ###
 copyright: WSEI 2017
-![hm-img]
-
-
-# HANGMAN PhoneGap Template ![bitHound Score][bithound-img]
-
-
-
-
-
-[bithound-img]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world/badges/score.svg
+![hm-img][http://www.wsei.edu.pl/]
 
 
 

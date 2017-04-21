@@ -26,9 +26,11 @@ zapraszamy na stronę [wiki][Wiki]
 
 ###
 copyright: WSEI 2017
+[hm-img]
+
 
 
 [wiki]: https://github.com/dudlakmateusz/hangman-wsei/wiki
-
+[hm-img]: https://github.com/dudlakmateusz/hangman-wsei/blob/master/www/res/icon/windows/Wide310x150Logo.scale-240.png
 [bithound-img]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world/badges/score.svg
 

@@ -15,7 +15,7 @@ Bartosz Pieczara (team menager)
 
     Email: 
     
-    Facebook: [bpfb][https://facebook.com/bartek.pieczara.7]
+    Facebook: https://facebook.com/bartek.pieczara.7
 
 Mateusz Dudłak
 
@@ -24,7 +24,7 @@ Mateusz Dudłak
     Facebook: https://facebook.com/dudlakmateusz
 
 ## info
-zapraszamy na stronę [wiki][Wiki]
+zapraszamy na stronę [wiki][Wiki] 
 
 
 

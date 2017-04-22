@@ -1,6 +1,7 @@
 var one="";
 var two = "";
 
+
 function saveCrap()
 {
 
@@ -126,6 +127,8 @@ else return this.substr(0,place) + sign + this.substr(place+1);
 
 }
 
+
+
 function hinting () {
 
 var ourRequest = new XMLHttpRequest();
@@ -133,8 +136,9 @@ ourRequest.open('GET', 'http://hangman.c0.pl/test.json');
 ourRequest.onload = function() {
 var ourData = JSON.parse(ourRequest.responseText);
 var chosenNumber = Math.round(Math.random() * 3);
-alert(ourData[chosenNumber].name);
+var chosenFrase = ourData[chosenNumber].name;
 navigator.vibrate(3000);
+document.getElementById("hint1").innerHTML=chosenFrase;
 };
 ourRequest.send();   
 

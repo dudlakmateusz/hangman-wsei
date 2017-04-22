@@ -33,9 +33,12 @@
 
 </div>
 
-<h1> WELCOME TO OUR GAME !</h1>
-</div>
+    <h1> WELCOME TO OUR GAME !</h1>
+    <h2>Your hint for today is:  </h2>
+    <span id="hint1">Podpowiedz</span>
+    </div>
 <div data-role="main" class="ui-content">
+<input type="button" value="Get a hint ! " id="button2" onclick="hinting()" />
 <h1><center>Please log in !</center> </h1>
 
 <form>
@@ -43,7 +46,7 @@
 <input type="text" id="nameField"/>
 <input type="text" id="nickNameField"/>
 <input type="button" value="Log in" id="button" onclick="saveCrap()"/>
-<input type="button" value="Get a hint ! " id="button" onclick="hinting()"/>
+
 <br></br>
 
 </form>

@@ -27,7 +27,7 @@ zapraszamy na stronę [wiki][Wiki]
 
 [![][hm-img]][wsei]
 
-### copyright: WSEI 2017
+ copyright: WSEI 2017
 
 
 

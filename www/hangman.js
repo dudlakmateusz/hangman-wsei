@@ -216,12 +216,12 @@ document.getElementById("hangman").innerHTML = '<img src="'+picture+'" alt="" />
 // ifWon
 if (frase == frase1)
 
-document.getElementById("letters").innerHTML  = "Well done !"+ " " + one +" "+ two+ " " +"You guessed the frase: "+frase+" with the number of wrong guesses :"+numberOfFailures+ '<br /><br /><span class="reset" onclick="location.reload()">Play again ?</span>';
+document.getElementById("letters").innerHTML  = "Well done !"+ " " + one +" "+ two+ " " +" You guessed the frase: "+frase+" with the number of wrong guesses :"+numberOfFailures+ '<br /><br /><span class="reset" onclick="location.reload()">Play again ?</span>';
 
 
 //ifLost
 if (numberOfFailures>=9)
-document.getElementById("letters").innerHTML  = one +" "+ two + "You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
+document.getElementById("letters").innerHTML  = one +" "+ two + " You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
 }
 
 
@@ -271,12 +271,12 @@ document.getElementById("hangman").innerHTML = '<img src="'+picture+'" alt="" />
 // ifWon
 if (frase == frase1)
 
-document.getElementById("letters").innerHTML  = "Well done !"+ " " + one +" "+ two+ " " +"You guessed the frase: "+frase+" with the number of wrong guesses :"+numberOfFailures+ '<br /><br /><span class="reset" onclick="location.reload()">Play again ?</span>';
+document.getElementById("letters").innerHTML  = "Well done !"+ " " + one +" "+ two+ " " +" You guessed the frase: "+frase+" with the number of wrong guesses :"+numberOfFailures+ '<br /><br /><span class="reset" onclick="location.reload()">Play again ?</span>';
 
 
 //ifLost
 if (numberOfFailures>=9)
-document.getElementById("letters").innerHTML  = one +" "+ two + "You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
+document.getElementById("letters").innerHTML  = one +" "+ two + " You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
 }
 
 function checkIfClicked2(numb)
@@ -320,12 +320,12 @@ document.getElementById("hangman").innerHTML = '<img src="'+picture+'" alt="" />
 // ifWon
 if (frase == frase1)
 
-document.getElementById("letters").innerHTML  = "Well done !"+ " " + one +" "+ two+ " " +"You guessed the frase: "+frase+" with the number of wrong guesses :"+numberOfFailures+ '<br /><br /><span class="reset" onclick="location.reload()">Play again ?</span>';
+document.getElementById("letters").innerHTML  = "Well done !"+ " " + one +" "+ two+ " " +" You guessed the frase: "+frase+" with the number of wrong guesses :"+numberOfFailures+ '<br /><br /><span class="reset" onclick="location.reload()">Play again ?</span>';
 
 
 //ifLost
 if (numberOfFailures>=9)
-document.getElementById("letters").innerHTML  = one +" "+ two + "You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
+document.getElementById("letters").innerHTML  = one +" "+ two + " You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
 }
 
 function checkIfClicked3(numb)
@@ -370,10 +370,10 @@ document.getElementById("hangman").innerHTML = '<img src="'+picture+'" alt="" />
 // ifWon
 if (frase == frase1)
 
-document.getElementById("letters").innerHTML  = "Well done !"+ " " + one +" "+ two+ " " +"You guessed the frase: "+frase+" with the number of wrong guesses :"+numberOfFailures+ '<br /><br /><span class="reset" onclick="location.reload()">Play again ?</span>';
+document.getElementById("letters").innerHTML  = "Well done !"+ " " + one +" "+ two+ " " +" You guessed the frase: "+frase+" with the number of wrong guesses :"+numberOfFailures+ '<br /><br /><span class="reset" onclick="location.reload()">Play again ?</span>';
 
 
 //ifLost
 if (numberOfFailures>=9)
-document.getElementById("letters").innerHTML  = one +" "+ two + "You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
+document.getElementById("letters").innerHTML  = one +" "+ two + " You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
 }

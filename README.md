@@ -11,15 +11,19 @@ Aplikacja jest odmianą popularnej gry Wisielec. W tym wydaniu oferujemy graczow
 
 Bartosz Pieczara (team menager)
 
-    Email: 
+    Email: bartek6824@gmail.com
     
     Facebook: https://facebook.com/bartek.pieczara.7
+    
+    Uczelnia: WSEI
 
 Mateusz Dudłak
 
     Email: mateusz.dudlak@gmail.com
     
     Facebook: https://facebook.com/dudlakmateusz
+    
+    Uczelnia: WSEI
 
 ## info
 zapraszamy na stronę [wiki][Wiki] 

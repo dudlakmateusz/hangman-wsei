@@ -27,8 +27,6 @@ localStorage.setItem(rate1,rate2);
 display2(rate1,rate2);
 
 document.getElementById("ratingGiven").innerHTML="Than you for rating our application !";
-alert(rate1+rate2);
-
 }
 
 function display(one,two) 

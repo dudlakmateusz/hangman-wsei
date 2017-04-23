@@ -2,6 +2,7 @@
 <html lang="pl">
 <head>
 <meta charset="utf-8">
+
 <title> Hangman </title>
 <link rel="stylesheet" href="themes/BPieczara.css" />
 <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
@@ -13,6 +14,8 @@
 
 <link rel="stylesheet" href="style.css" type="text/css"/>
 <script src="hangman.js"></script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-eval' data: blob: filesystem: ws: gap: file: cdvfile: https://ssl.gstatic.com *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; child-src *; ">
+    
 </head>
 
 <body>
@@ -33,17 +36,21 @@
 
 </div>
 
-<h1> WELCOME TO OUR GAME !</h1>
-</div>
+    <h1> WELCOME !</h1>
+    
+    <span id="hint1"></span>
+    </div>
 <div data-role="main" class="ui-content">
-<h1><center>Please log in !</center> </h1>
+<input type="button" value="Get a hint ! " id="button2" onclick="hinting()" />
+<h1><center>Log in !</center> </h1>
 
 <form>
 <label><h2>Please input your name and nickname</h2></label>
 <input type="text" id="nameField"/>
 <input type="text" id="nickNameField"/>
-<input type="button" value="Log in" id="button" onclick="saveCrap()"/>
-<input type="button" value="Get a hint ! " id="button" onclick="hinting()"/>
+<input type="button" value="Sign in" id="button" onclick="saveLocal()"/>
+
+
 <br></br>
 
 </form>
@@ -122,16 +129,17 @@ Cracow School of Economics and Computer Science</p>
 </div>
 
 <h1> RATE OUR APP ! </h1>
+<center><h2><span id="ratingGiven"></span></h2></center>
 </div>
 <div data-role="main" class="ui-content">
 <h1><center>Please rate this application</center> </h1>
 
 <form>
-<label for="improve"><h2>Please suggest can we can do better</h2></label>
-<textarea name="improvements" id="improve" placeholder="Make an improvement suggestion"></textarea>
-<label for="rating"><h2>Please rate this application using a 1-10 scale</h2></label>
-<input type="range" min="0" max ="10" name="rating" id="rating"/>
-<input type="submit" value="Rate our application !"/>
+<label><h2>Please rate this app out of 10</h2></label>
+<input type="range" min="0" max ="10" id="rating1"/>
+<label><h2>Please suggest what we can do better</h2></label>
+<input type="text" id="rating2"/>
+<input type="button" value="Rate us" id="button" onclick="saveLocal2()"/>
 <br></br>
 </form>
 

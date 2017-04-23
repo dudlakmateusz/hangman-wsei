@@ -1,8 +1,10 @@
 var one="";
 var two = "";
+var rate1="";
+var rate2="";
 
 
-function saveCrap()
+function saveLocal()
 {
 
 one = document.getElementById("nameField").value;
@@ -11,10 +13,30 @@ localStorage.setItem(one,two);
 display(one,two);
 }
 
+function saveLocal2()
+{
+
+rate1 = document.getElementById("rating1").value;
+rate2 = document.getElementById("rating2").value;
+localStorage.setItem(rate1,rate2);
+display2(rate1,rate2);
+
+document.getElementById("ratingGiven").innerHTML="Than you for rating our application !";
+alert(rate1+rate2);
+
+}
+
 function display(one,two) 
 {
 one = localStorage.getItem(one);
 two = localStorage.getItem(two);
+
+}
+
+function display2(rate1,rate2) 
+{
+rate1 = localStorage.getItem(rate1);
+rate2 = localStorage.getItem(rate2);
 
 }
 
@@ -26,14 +48,14 @@ frasesArray[3] = "Fortune favors the bold";
 frasesArray[4] = "Hope for the best, but prepare for the worst";
 frasesArray[5] = "Birds of a feather flock together";
 frasesArray[6] = "A picture is worth a thousand words";
-frasesArray[7] = "There's no such thing as a free lunch";
+frasesArray[7] = "There is no such thing as a free lunch";
 frasesArray[8] = "Never look a gift horse in the mouth";
 frasesArray[9] = "A watched pot never boils";
-frasesArray[10] = "Beggars can't be choosers";
+frasesArray[10] = "Beggars cannot be choosers";
 frasesArray[11] = "Too many cooks spoil the broth";
-frasesArray[12] = "Don't bite the hand that feeds you";
-frasesArray[13] = "One man's trash is another man's treasure";
-frasesArray[14] = "There's no time like the present";
+frasesArray[12] = "Do not bite the hand that feeds you";
+frasesArray[13] = "A new broom sweeps clean";
+frasesArray[14] = "There is no time like the present";
 frasesArray[15] = "Beauty is in the eye of the beholder";
 frasesArray[16] = "A penny saved is a penny earned";
 frasesArray[17] = "Familiarity breeds contempt";
@@ -137,7 +159,7 @@ ourRequest.onload = function() {
 var ourData = JSON.parse(ourRequest.responseText);
 var chosenNumber = Math.round(Math.random() * 3);
 var chosenFrase = ourData[chosenNumber].name;
-navigator.vibrate(3000);
+navigator.vibrate(800);
 document.getElementById("hint1").innerHTML=chosenFrase;
 };
 ourRequest.send();   
@@ -165,7 +187,7 @@ document.getElementById(componentNumber).style.color="#00C000";
 document.getElementById(componentNumber).style.border="3px solid #00C000";
 document.getElementById(componentNumber).style.background="default";
 showFrase();
-navigator.vibrate(2000);
+navigator.vibrate(800);
 }
 else
 {
@@ -186,7 +208,8 @@ if (frase == frase1)
 
 document.getElementById("letters").innerHTML  = "Well done !"+ " " + one +" "+ two+ " " +"You guessed the frase: "+frase+" with the number of wrong guesses :"+numberOfFailures+ '<br /><br /><span class="reset" onclick="location.reload()">Play again ?</span>';
 
+
 //ifLost
 if (numberOfFailures>=9)
-document.getElementById("letters").innerHTML  = "You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
+document.getElementById("letters").innerHTML  = one +" "+ two + "You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
 }

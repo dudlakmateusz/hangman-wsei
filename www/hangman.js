@@ -2,6 +2,7 @@ var one="";
 var two = "";
 var rate1="";
 var rate2="";
+var rand = Math.round(Math.random() * 3); 
 
 
 function saveLocal()
@@ -127,13 +128,17 @@ letters1[25] = "Z";
 
 function begin()
 {
+    
+document.getElementById("hangman").innerHTML = '<img src="img/v'+rand+'/s0.jpg" alt="" />';
+
 
 var divContent="";
 
 for(i=0; i<=25; i++)
 {
+    
 var componentNumber = "letNum" + i;
-divContent=divContent+'<div class="letterSize" onclick="checkIfClicked('+i+')" id="'+componentNumber+'">'+letters1[i]+'</div>'
+divContent=divContent+'<div class="letterSize" onclick="checkIfClicked'+rand+'('+i+')" id="'+componentNumber+'">'+letters1[i]+'</div>'
 if((i+1) % 7 ==0) divContent=divContent+'<div style="clear:both;"></div>'
 }
 
@@ -166,7 +171,8 @@ ourRequest.send();
 
 }
 
-function checkIfClicked(numb)
+
+function checkIfClicked0(numb)
 {
 var isCorrect = false;
 
@@ -198,9 +204,155 @@ document.getElementById(componentNumber).style.border="3px solid #C00000";
 document.getElementById(componentNumber).style.background="default"; 
 document.getElementById(componentNumber).setAttribute=("onclick",";");
 numberOfFailures++;
-var picture = "img/s"+ numberOfFailures + ".jpg";
+var picture = "img/v0/s"+ numberOfFailures + ".jpg";
 document.getElementById("hangman").innerHTML = '<img src="'+picture+'" alt="" />';
+}
 
+// ifWon
+if (frase == frase1)
+
+document.getElementById("letters").innerHTML  = "Well done !"+ " " + one +" "+ two+ " " +"You guessed the frase: "+frase+" with the number of wrong guesses :"+numberOfFailures+ '<br /><br /><span class="reset" onclick="location.reload()">Play again ?</span>';
+
+
+//ifLost
+if (numberOfFailures>=9)
+document.getElementById("letters").innerHTML  = one +" "+ two + "You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
+}
+
+
+
+
+
+
+
+function checkIfClicked1(numb)
+{
+var isCorrect = false;
+
+for(i=0;i<fraseLength;i++)
+{
+   if(frase.charAt(i)==letters1[numb])
+       {
+          frase1=frase1.setSign(i,letters1[numb]);
+          isCorrect = true;
+       }
+}
+
+if(isCorrect==true)
+{
+var componentNumber = "letNum" + numb;
+document.getElementById(componentNumber).style.background="#003300";
+document.getElementById(componentNumber).style.color="#00C000";
+document.getElementById(componentNumber).style.border="3px solid #00C000";
+document.getElementById(componentNumber).style.background="default";
+showFrase();
+navigator.vibrate(800);
+}
+else
+{
+var componentNumber = "letNum" + numb;
+document.getElementById(componentNumber).style.background="#330000";
+document.getElementById(componentNumber).style.color="#C00000";
+document.getElementById(componentNumber).style.border="3px solid #C00000";
+document.getElementById(componentNumber).style.background="default"; 
+document.getElementById(componentNumber).setAttribute=("onclick",";");
+numberOfFailures++;
+var picture = "img/v1/s"+ numberOfFailures + ".jpg";
+document.getElementById("hangman").innerHTML = '<img src="'+picture+'" alt="" />';
+}
+
+// ifWon
+if (frase == frase1)
+
+document.getElementById("letters").innerHTML  = "Well done !"+ " " + one +" "+ two+ " " +"You guessed the frase: "+frase+" with the number of wrong guesses :"+numberOfFailures+ '<br /><br /><span class="reset" onclick="location.reload()">Play again ?</span>';
+
+
+//ifLost
+if (numberOfFailures>=9)
+document.getElementById("letters").innerHTML  = one +" "+ two + "You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
+}
+
+function checkIfClicked2(numb)
+{
+var isCorrect = false;
+
+for(i=0;i<fraseLength;i++)
+{
+   if(frase.charAt(i)==letters1[numb])
+       {
+          frase1=frase1.setSign(i,letters1[numb]);
+          isCorrect = true;
+       }
+}
+
+if(isCorrect==true)
+{
+var componentNumber = "letNum" + numb;
+document.getElementById(componentNumber).style.background="#003300";
+document.getElementById(componentNumber).style.color="#00C000";
+document.getElementById(componentNumber).style.border="3px solid #00C000";
+document.getElementById(componentNumber).style.background="default";
+showFrase();
+navigator.vibrate(800);
+}
+else
+{
+var componentNumber = "letNum" + numb;
+document.getElementById(componentNumber).style.background="#330000";
+document.getElementById(componentNumber).style.color="#C00000";
+document.getElementById(componentNumber).style.border="3px solid #C00000";
+document.getElementById(componentNumber).style.background="default"; 
+document.getElementById(componentNumber).setAttribute=("onclick",";");
+numberOfFailures++;
+var picture = "img/v2/s"+ numberOfFailures + ".jpg";
+document.getElementById("hangman").innerHTML = '<img src="'+picture+'" alt="" />';
+}
+
+// ifWon
+if (frase == frase1)
+
+document.getElementById("letters").innerHTML  = "Well done !"+ " " + one +" "+ two+ " " +"You guessed the frase: "+frase+" with the number of wrong guesses :"+numberOfFailures+ '<br /><br /><span class="reset" onclick="location.reload()">Play again ?</span>';
+
+
+//ifLost
+if (numberOfFailures>=9)
+document.getElementById("letters").innerHTML  = one +" "+ two + "You lost ! The frase was: "+frase+'<br /><br /><span class="reset" onclick="location.reload()">Try again ? </span>';
+}
+
+function checkIfClicked3(numb)
+{
+var isCorrect = false;
+
+for(i=0;i<fraseLength;i++)
+{
+   if(frase.charAt(i)==letters1[numb])
+       {
+          frase1=frase1.setSign(i,letters1[numb]);
+          isCorrect = true;
+       }
+}
+
+if(isCorrect==true)
+{
+var componentNumber = "letNum" + numb;
+document.getElementById(componentNumber).style.background="#003300";
+document.getElementById(componentNumber).style.color="#00C000";
+document.getElementById(componentNumber).style.border="3px solid #00C000";
+document.getElementById(componentNumber).style.background="default";
+showFrase();
+navigator.vibrate(800);
+}
+else
+{
+var componentNumber = "letNum" + numb;
+document.getElementById(componentNumber).style.background="#330000";
+document.getElementById(componentNumber).style.color="#C00000";
+document.getElementById(componentNumber).style.border="3px solid #C00000";
+document.getElementById(componentNumber).style.background="default"; 
+document.getElementById(componentNumber).setAttribute=("onclick",";");
+numberOfFailures++;
+var picture = "img/v3/s"+ numberOfFailures + ".jpg";
+document.getElementById("hangman").innerHTML = '<img src="'+picture+'" alt="" />';
 }
 
 // ifWon

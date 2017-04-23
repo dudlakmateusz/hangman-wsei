@@ -4,6 +4,10 @@ var rate1="";
 var rate2="";
 var rand = Math.round(Math.random() * 3); 
 
+var correct = new Audio("hit.wav");
+var wrong = new Audio("miss.wav");
+var hint = new Audio("hint.wav");
+
 
 function saveLocal()
 {
@@ -165,6 +169,7 @@ var ourData = JSON.parse(ourRequest.responseText);
 var chosenNumber = Math.round(Math.random() * 3);
 var chosenFrase = ourData[chosenNumber].name;
 navigator.vibrate(800);
+hint.play();
 document.getElementById("hint1").innerHTML=chosenFrase;
 };
 ourRequest.send();   
@@ -193,6 +198,7 @@ document.getElementById(componentNumber).style.color="#00C000";
 document.getElementById(componentNumber).style.border="3px solid #00C000";
 document.getElementById(componentNumber).style.background="default";
 showFrase();
+correct.play();
 navigator.vibrate(800);
 }
 else
@@ -204,6 +210,7 @@ document.getElementById(componentNumber).style.border="3px solid #C00000";
 document.getElementById(componentNumber).style.background="default"; 
 document.getElementById(componentNumber).setAttribute=("onclick",";");
 numberOfFailures++;
+wrong.play();
 var picture = "img/v0/s"+ numberOfFailures + ".jpg";
 document.getElementById("hangman").innerHTML = '<img src="'+picture+'" alt="" />';
 }
@@ -246,6 +253,7 @@ document.getElementById(componentNumber).style.color="#00C000";
 document.getElementById(componentNumber).style.border="3px solid #00C000";
 document.getElementById(componentNumber).style.background="default";
 showFrase();
+correct.play();
 navigator.vibrate(800);
 }
 else
@@ -257,6 +265,7 @@ document.getElementById(componentNumber).style.border="3px solid #C00000";
 document.getElementById(componentNumber).style.background="default"; 
 document.getElementById(componentNumber).setAttribute=("onclick",";");
 numberOfFailures++;
+wrong.play();
 var picture = "img/v1/s"+ numberOfFailures + ".jpg";
 document.getElementById("hangman").innerHTML = '<img src="'+picture+'" alt="" />';
 }
@@ -293,6 +302,7 @@ document.getElementById(componentNumber).style.color="#00C000";
 document.getElementById(componentNumber).style.border="3px solid #00C000";
 document.getElementById(componentNumber).style.background="default";
 showFrase();
+correct.play();
 navigator.vibrate(800);
 }
 else
@@ -304,6 +314,7 @@ document.getElementById(componentNumber).style.border="3px solid #C00000";
 document.getElementById(componentNumber).style.background="default"; 
 document.getElementById(componentNumber).setAttribute=("onclick",";");
 numberOfFailures++;
+wrong.play();
 var picture = "img/v2/s"+ numberOfFailures + ".jpg";
 document.getElementById("hangman").innerHTML = '<img src="'+picture+'" alt="" />';
 }
@@ -334,12 +345,14 @@ for(i=0;i<fraseLength;i++)
 
 if(isCorrect==true)
 {
+    
 var componentNumber = "letNum" + numb;
 document.getElementById(componentNumber).style.background="#003300";
 document.getElementById(componentNumber).style.color="#00C000";
 document.getElementById(componentNumber).style.border="3px solid #00C000";
 document.getElementById(componentNumber).style.background="default";
 showFrase();
+correct.play();
 navigator.vibrate(800);
 }
 else
@@ -351,6 +364,7 @@ document.getElementById(componentNumber).style.border="3px solid #C00000";
 document.getElementById(componentNumber).style.background="default"; 
 document.getElementById(componentNumber).setAttribute=("onclick",";");
 numberOfFailures++;
+wrong.play();
 var picture = "img/v3/s"+ numberOfFailures + ".jpg";
 document.getElementById("hangman").innerHTML = '<img src="'+picture+'" alt="" />';
 }

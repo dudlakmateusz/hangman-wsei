@@ -9,9 +9,9 @@ body
 {
    background-color: #000000; 
     color:lightgray;
-    font-size:22px;
-    font-family: 'Inconsolata';
-	font-weight: 700;
+    font-size:19px;
+    font-family: 'Source Code Pro', monospace;
+	font-weight: 500;
 }
 
 #container
